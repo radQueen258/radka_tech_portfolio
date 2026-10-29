@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     // Relative base ensures assets load properly on GitHub Pages user/repo sub-paths
-    base: './',
+    base: '/radka_tech_portfolio/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
